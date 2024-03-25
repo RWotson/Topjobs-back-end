@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 600px;
+      margin: auto;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      background: #f9f9f9;
+    }
+    .header {
+      background-color: rgb(0, 128, 202); /* Changed to light blue */
+      color: white;
+      padding: 10px;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      text-align: center;
+      font-size: 24px;
+    }
+    .footer {
+      background-color: rgb(0, 128, 202);; /* Changed to light blue */
+      color: white;
+      padding: 20px;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      text-align: left;
+      font-size: 14px;
+    }
+    .content {
+      padding: 20px;
+      font-size: 18px;
+    }
+
+    .button{
+        padding:10px;
+        background-color: rgb(10, 202, 0);
+        color: white;
+        border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">Welcome to TopJobs Consultant lanka Ltd.!</div> <!-- Updated company name -->
+  <div class="content">
+    <p>Hello <strong>${req.body.fname}</strong>,</p>
+
+    <section id="services">
+    <h2>Empowering Your Job Search</h2>
+    <p>We offer expert job consulting services to help you land your dream job.</p>
+    <ul class="services">
+      <li>Resume & Cover Letter Writing</li>
+      <li>Interview Coaching & Mock Interviews</li>
+      <li>Career Path Planning & Guidance</li>
+    </ul>
+    <a class="button">Schedule Now</a>
+  </section>
+
+   
+    <p>Thank you for your interest in TopJobs Consultant lanka </p>
+  </div>
+  <div class="footer">
+    <p>TopJob is a leading provider of Consultant services in Colombo Srilanka. We offer a wide range of opportunities for passionate and talented individuals like yourself.</p>
+    <p>General Line : +94 (0) 115577111</p>
+    <p>Channeling Hotline : +94 (0) 115777888</p>
+    <p>Fax : +94 (0) 11 2430393</p>
+    <p>Email : TopJob@slt.lk</p>
+    <p>TopJobs Consultant lanka Ltd</p>
+    <p>23, Deshamanya H. K Dharmadasa Mawatha, Colombo 2, Sri Lanka.</p>
+  </div>
+</body>
+</html>
